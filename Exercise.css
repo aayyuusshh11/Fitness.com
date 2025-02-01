@@ -1,0 +1,140 @@
+.Exercise{
+    background-color:rgba(0, 0,0,0.8);
+}
+.UB{
+    height:750px;
+    width: 1650px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    opacity: 1;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top:;
+}
+
+p{
+    text-align: left;
+    font-size: 26;
+    margin-left: 19px;
+}
+.a,
+.b,
+.c,
+.d{
+    padding: 20;
+    border-radius: 10px;
+}
+.LB{
+
+    height:650px;
+    width: 1650px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    opacity: 1;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top:30px;
+}
+.BE{
+    height:600px;
+    width: 1650px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    opacity: 1;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top:30px;
+}
+.a1:hover,
+.b1:hover,
+.c1:hover,
+.d1:hover,
+.a2:hover,
+.b2:hover,
+.c2:hover,
+.d2:hover,
+.a3:hover,
+.b3:hover,
+.c3:hover,
+.d3:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.a1,
+.b1,
+.c1,
+.d1,
+.a2,
+.b2,
+.c2,
+.d2,
+.a3,
+.b3,
+.c3,
+.d3{
+    padding: 20;
+    border-radius: 10px;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:35px 12%;
+    background:rgba(0, 0,0,0.8);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+
+.logo{
+    font-size:25px;
+    color:white;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.logo:hover{
+    color:orangered;
+    text-shadow:0 0 25px orangered,
+                0 0 50px orangered;
+    transform:scale(1.1);
+}
+span{
+    color:orangered;
+}
+.navbar a{
+    font-size:18px;
+    color:white;
+    font-weight:500;
+    margin:0 20px;
+    border-bottom:3px solid transparent;
+    transition:0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:orangered;
+    border-bottom:3px solid orangered;
+}
+.contact{
+    padding: 10px 28px;
+    background-color:white;
+    color:black;
+    border: 2px solid transparent;
+    border-radius:8px;
+    font-size:16px;
+    letter-spacing:1px;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.contact:hover{
+background-color:orangered;
+color:white;
+box-shadow:0 0 25px orangered;
+}
+h2{
+    color: orangered;
+    
+}
